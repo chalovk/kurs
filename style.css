@@ -1,0 +1,35 @@
+.content {          /*стиль для стартовой тсраницы*/
+    height: 2588px;  /*высота*/
+	width: 1400px;   /*ширина*/
+	margin: auto;    /*положение автоматом посередине*/
+	background-color: #e4e0d6; /*цвет фона*/
+}
+.head1 {					/*голова стартовой страницы*/
+	height: 709px;
+	width: 1400px;
+	background-image: url(img/moto.jpg);
+}
+table.t1 {				/*таблица товаров*/
+	background: #ffffff;
+	height: 726px;
+	width: 1170px;
+	margin: auto;
+	position: relative; /* Относительное позиционирование */
+    bottom: 76px; 		/*слвиг вверх относительно текущей позиции*/
+}
+.tr1 	{					/*стили для строк с товаром таблицы 1*/
+	height: 236px;
+	background: #d1d3d4;	
+	padding: 1px;			/*расстояние между ячейками таблицы*/
+}
+.tr2 	{					/*стили для строк с ценой таблицы 1*/
+	height: 88px;
+	padding: 1px;
+}
+table.t2	{
+	margin: auto;
+	position: relative; /* Относительное позиционирование */
+    bottom: 56px; 			/*Сдвиг вверх относительно текущей позицци (76(верхняя таблица вверху)-20(отступ от верхней таблицы)*/
+	border: 0px;
+	padding: 0px;
+}
